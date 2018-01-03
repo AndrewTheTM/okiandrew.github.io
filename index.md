@@ -4,3 +4,7 @@ This is a website that is a collection of notes.  Some are notes about using spe
 
 Contents:
 [Linear Models in R]({% post_url LinearModels})
+
+## Contact
+
+Find me on [Twitter](http://www.twitter.com/okiandrew)

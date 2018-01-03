@@ -50,26 +50,26 @@ The F-statistic is a comparison of the model to random. Ideally the statistic is
 
 ## Diagnostic Plots
 
-<<resid vs fitted>>
+![Residuals vs. Fitted Plot]({{ "img/residuals_vs_fitted.png" | absolute_url}})
 
 Residuals vs. Fitted Plot
 * The residuals should bounce randomly around the 0 line, which suggests that it is reasonable to assume that the relationship is linear
 * The residuals should form a "horizontal band" around the 0 line, which suggests the variance of the error terms are equal
 * No one/few residuals should stand out from the basic pattern; one that does might be an outlier
 
-<<normal q-q>>
+![Normal Q-Q Plot]({{ "img/normal_q-q.png" | absolute_url}})
 
 Normal Q-Q Plot
 * The plot should form a straight line, which indicates the sample and model use the same distribution
 * A curved plot can mean a skewed data sample
 * A nearly horizontal line with extremes at the right and left can indicate that the sample has more extreme values
 
-<<scale location>>
+![Scale-Location Plot]({{ "img/scale-location.png" | absolute_url}})
 
 Scale-Location Plot
 * Ideally, the line will be horizontal with randomly spread points
 
-<<resid vs lev>>
+![Residuals vs. Leverage Plot]({{ "img/residuals_vs_leverage.png" | absolute_url}})
 
 Residuals vs. Leverage Plot
 * Uses Cook's Distance to measure leverage - leverage DOES NOT mean an outlier!
