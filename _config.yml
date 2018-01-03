@@ -1,6 +1,9 @@
-theme: jekyll-theme-modernist
-defaults: 
-  - scope:
-      path: "img"
+defaults:
+ - scope:
+    path: "img"
     values:
-        image: true
+      image: true
+ - values:
+    layout: "default"
+gems:
+  - jekyll-relative-links
